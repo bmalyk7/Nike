@@ -1,0 +1,157 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+height: 50px;
+background-color:black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+.menu .menu_link:hover{
+    text-decoration: underline solid white;
+}
+
+
+.promo_start{
+    display: flex;
+    height: 800px;
+}
+
+
+.promo_descr{
+    margin:0;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+h1{
+    color:white;
+    margin: 50px auto;
+}
+
+span{
+   
+    color:white;
+    margin: 30px auto;
+}
+
+
+.promo_img{
+    width: 48%;
+}
+.promo_img img{
+    max-height: 800px;
+    width: 100%;
+}
+
+/* .img_blok{
+    width: 100%;
+    background-image: url("../images/nike.jpg");
+} */
+
+
+button{
+    width: 90px;
+    height: 30px;
+    margin: 0 auto ;
+    border-radius: 8px;
+    text-align: center;
+} button:hover{
+    width: 100px;
+    height: 40px;
+}
+
+
+.half{
+    min-height: 600px;
+    display: flex;
+    background-color: white;
+}
+
+
+.half_left{
+    width: 50%;
+}
+
+
+.left_img{
+    margin: 30px 165px 0;
+    height: 340px;
+/* background-image:url("../images/left.jpg"); */
+}
+.left_title{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.left_subtitle{
+    color:black;
+    text-align: center;
+}
+
+
+
+
+.half_right{
+    width: 50%;
+}
+
+
+.right_img{display: block;
+    margin: 30px 160px 0;
+    height: 340px;
+    /* background-image: url("../images/right.jpg"); */
+}
+
+.right_title{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.right_subtitle{
+    color:black;
+    text-align: center;
+}
+
+
+.last_promo{
+    display: flex;
+    min-height: 600px;
+    background-image:url("../images/last_bg.jpg");
+    background-position:center;
+}
+
+
+.long_notes{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 300px;
+    color:white;
+}
+
+.sign{
+    width: 255px;
+    color:white;
+    font-size: 30px;
+    margin-top: 510px;
+    margin-bottom: 0;
+    margin-left: 800px;
+}
